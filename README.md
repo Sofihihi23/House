@@ -1,6 +1,6 @@
 Лендинг для картинной галереи 
 
-Ссылка на live-версию - https://sofihihi23.github.io/House/
+Ссылка на live-версию - https://sofihihi23.github.io/Landing_gallery/
 - Адаптивный сайт
 - Написан по методологии БЭМ
 - Ссылки и кнопки имеют hover, focus, active
