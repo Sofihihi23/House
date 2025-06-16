@@ -12,7 +12,6 @@ body{
     font-family: 'Raleway';
     font-weight: 500;
     color: #2C2D35;
-    /* min-width: 1140px; */
 }
 .container{
     max-width: 1140px;
@@ -38,16 +37,9 @@ body{
 }
 
 /* Хедер */
-.header{
-    /* Чтобы не ездила */
-    
-}
+
 .header__top {
-    /* position: absolute; */
     width: 100%;
-    /* left: 0;
-    top: 0;
-    z-index: 50; */
     background-color: #E1EDE6;
     min-height: 100px;
     
@@ -56,7 +48,6 @@ body{
     display: flex;
     gap: 495px;
     padding-top: 33px;
-    /* gap: calc(101px + 394 *(100vw / 690)); */
 }
 @media (max-width: 1140px){
     .header__top-con{
@@ -120,33 +111,20 @@ body{
     stroke:#2C2D35;
 }
 .header__shop-img:hover{
-    /* color: #d48530; */
     stroke: #598D66;
-    /* background-color: #d48530; */
-    /* stroke: #D9B949; */
 }
-/* .header__shop-img:active{
-    stroke: #376B44
-} */
 
-/* .header__shop-img:focus{
-    background-color: #D4E8D9; 
-    stroke: #598D66;
-}*/
 .svg{
     fill: currentColor;
 }
 .header__content {
-    /* position: relative; */
     display: flex;
     gap: 30px;
-    /* min-height: 620px; */
 }
 @media(max-width: 592px){
     .header__content{
         flex-wrap: wrap;
         gap: 0;
-        /* margin: 0 auto; */
     }
 }
 .header__content-img{
@@ -175,7 +153,6 @@ body{
     font-size: 60px;
     line-height: 110%;
     margin-top: 145px;
-    /* font-size: calc(40px + 20 * (100vw / 1440)); */
 }
 @media(max-width: 992px){
     .header__info-h1{
@@ -262,8 +239,6 @@ body{
 }
 .catalog__h2 {
     font-size: 40px;
-    /* display: flex;
-    align-items: center; */
 }
 @media (max-width:992px){
     .catalog__h2{
@@ -278,8 +253,6 @@ body{
 }
 
 .catalog__btn {
-    /* width: 135px;
-    height: 43px; */
     padding: 10px 20px 10px 20px;
     font-size: 20px;
     background-color: #D4E8D9;
@@ -308,7 +281,6 @@ body{
 }
 @media (max-width:1140px){
     .catalog__content{
-        /* gap: 10px; */
     grid-template-columns: 1fr 1fr;
 
     }
@@ -437,7 +409,6 @@ body{
 }
 .new-collection {
     background-image: url(../img/coll__backgr.jpg);
-    /* object-position: right; */
     background-position: center;
     background-repeat: no-repeat;
     min-height: 574px;
@@ -570,7 +541,6 @@ body{
     gap: 30px;
 }
 .contacts-fb:hover{
-    /* stroke: #598D66; */
     fill: #598D66;
     color: #2E2B44;
 }
